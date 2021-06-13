@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind screens;
+
+@layer base {
+	html{
+		@apply relative font-sans font-normal antialiased text-black overflow-x-hidden box-border;
+		-ms-text-size-adjust: 100%;
+		-webkit-text-size-adjust: 100%;
+		-moz-osx-font-smoothing: grayscale;
+		-webkit-font-smoothing: antialiased;
+	}
+	*,
+	*::before,
+	*::after {
+		box-sizing: border-box;
+		margin: 0;
+	}
+}
+
+@layer components{
+	@import "type";
+}
+
+@layer utilities {
+
+}
