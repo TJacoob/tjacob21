@@ -1,0 +1,10 @@
+.nuxt-content{
+	a{
+		@apply text-primary transition duration-200;
+	}
+	a:hover{
+		@apply text-primary-lighter transition duration-200;
+	}
+	p{ @apply mb-2 }
+	p:last-of-type{ @apply mb-0 }
+}

@@ -3,29 +3,22 @@ module.exports = {
 	suffix: true,
 	icons:{
 		solid: [
-			'faShoppingCart',
-			'faShippingFast',
-			'faBoxOpen',
-			'faLeaf',
-			'faMailBulk',
-			'faMapMarkedAlt',
 			'faChevronLeft',
 			'faChevronRight',
-			'faTimes',
+			'faExternalLinkAlt',
 			'faBars',
-			'faCircleNotch',
 		],
 		regular:[
-			'faPlusSquare',
-			'faMinusSquare',
 			'faEnvelope',
-			'faTrashAlt',
+			'faFileAlt',
 		],
 		brands: [
 			'faFacebookSquare',
 			'faInstagram',
 			'faWhatsapp',
-			'faTwitter'
+			'faTwitter',
+			'faLinkedinIn',
+			'faGithub',
 		],
 	}
 }

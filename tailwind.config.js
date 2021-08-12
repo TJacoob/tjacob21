@@ -5,22 +5,25 @@ module.exports = {
 	theme: {
 		extend: {
 			fontFamily: {
-				'sans': ['"Nunito Sans"', ...defaultTheme.fontFamily.sans],
-				'serif': ['"Halant"', ...defaultTheme.fontFamily.serif],
+				'sans': ['"Titillium Web"', 'sans-serif'],
 			},
 			colors: {
 				primary: {
-					DEFAULT: '#F19953',
-					darker: '#C47335'
+					lighter: '#4c956c',
+					DEFAULT: '#2c6e49',
+					//lighter: '#a3b18a',
+					//DEFAULT: '#588157',
 				},
 				secondary: {
-					DEFAULT: '#2660A4',
+					DEFAULT: '#dad7cd',
+					//DEFAULT: '#dad7cd',
 				},
-				white: '#FFF7F2',
+				white: '#ffffff',
 				gray: colors.gray,
-				black: '#1C1C1C',
+				black: '#141115',
 			},
 			width: theme => ({
+				"28": "7rem",
 				"72": "18rem",
 				"80": "20rem",
 				"88": "22rem",
@@ -29,6 +32,7 @@ module.exports = {
 				"200": "52rem",
 			}),
 			height: theme => ({
+				"28": "7rem",
 				"72": "18rem",
 				"80": "20rem",
 				"88": "22rem",
@@ -44,8 +48,25 @@ module.exports = {
 			}),
 			container: (theme) => ({
 				center: true,
-				padding: theme("spacing.4"),
+				padding: {
+					DEFAULT: '1rem',
+					sm: '1.25rem',
+					md: '2rem',
+					lg: '3rem',
+					xl: '4rem',
+					'2xl': '5rem',
+				},
 			}),
+		},
+		container: {
+			screens: {
+				DEFAULT: '100%',
+				sm: "640px",
+				md: "768px",
+				lg: "1024px",
+				xl: "1280px",
+				"2xl": "1400px",
+			}
 		}
 	},
 	variants: {

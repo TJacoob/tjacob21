@@ -9,13 +9,15 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "@fortawesome/free-brands-svg-icons": "^5.15.3",
+    "@fortawesome/free-brands-svg-icons": "^5.15.4",
     "@fortawesome/free-regular-svg-icons": "^5.15.3",
-    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
     "@nuxt/content": "^1.14.0",
     "@nuxtjs/fontawesome": "^1.1.2",
     "core-js": "^3.9.1",
-    "nuxt": "^2.15.3"
+    "nuxt": "^2.15.3",
+    "sass": "^1.37.5",
+    "sass-loader": "^10"
   },
   "devDependencies": {
     "@nuxt/image": "^0.4.14",
