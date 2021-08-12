@@ -1,20 +1,5 @@
 # tjacob21
 
-## Build Setup
+Personal website updated for 2021. Available at [https://tjacob.dev](https://tjacob.dev).
 
-```bash
-# install dependencies
-$ npm install
-
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
-```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+This website was built using [NuxtJS](https://nuxtjs.org/) and [Tailwind](https://tailwindcss.com/). 

@@ -53,6 +53,7 @@ export default {
 
 	// Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
 	plugins: [
+		{ src: '@/plugins/analytics.js', mode: 'client' },
 	],
 
 	// Auto import components: https://go.nuxtjs.dev/config-components
@@ -61,6 +62,7 @@ export default {
 	// Env Variables
 	publicRuntimeConfig: {
 		baseURL: process.env.BASE_URL,
+		gaId: process.env.GA_ID,
 	},
 
 	// Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
@@ -75,6 +77,8 @@ export default {
 		"@nuxtjs/google-fonts",
 		// https://image.nuxtjs.org/
 		'@nuxt/image',
+		// https://sitemap.nuxtjs.org/
+		'@nuxtjs/sitemap',
 	],
 
 	// Modules: https://go.nuxtjs.dev/config-modules
@@ -116,5 +120,11 @@ export default {
 
 	// Build Configuration: https://go.nuxtjs.dev/config-build
 	build: {
-	}
+
+	},
+
+	// https://sitemap.nuxtjs.org/guide/configuration
+	sitemap: {
+		hostname: process.env.BASE_URL,
+	},
 }
