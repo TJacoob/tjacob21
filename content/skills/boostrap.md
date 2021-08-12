@@ -1,4 +1,4 @@
 ---
 title: Bootstrap
-rating: 8
+rating: 6
 ---

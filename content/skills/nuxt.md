@@ -1,4 +1,4 @@
 ---
 title: NuxtJS
-rating: 6
+rating: 7
 ---

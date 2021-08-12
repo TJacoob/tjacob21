@@ -8,7 +8,6 @@ image_4: bdev_4.webp
 techs: 'React, NodeJS, MeteorJS, Express, Bootstrap, MongoDB'
 year: 2019
 github: https://github.com/NEETIIST/BreakingDev19
-website: http://breakingdev.pt/
 level: 1
 ---
 

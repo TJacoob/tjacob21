@@ -1,11 +1,12 @@
 ---
-title: Joseph Sutton Solicitors
+title: Paróquia Santa Joana Princesa
 description: ''
-image_1: sw_joseph_1.webp
-image_2: sw_joseph_2.webp
+image_1: sw_santajoana_1.webp
+image_2: sw_santajoana_2.webp
+image_3: sw_santajoana_3.webp
 techs: 'HTML, Bootstrap, Javascript, PHP, SASS'
-year: 2019
-website: https://www.josephsuttonsolicitors.com/en/
+year: 2021
+website: https://www.paroquiasantajoana.pt/
 level: 3
 ---
 

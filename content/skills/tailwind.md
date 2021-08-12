@@ -1,4 +1,4 @@
 ---
 title: Tailwind
-rating: 5
+rating: 7
 ---

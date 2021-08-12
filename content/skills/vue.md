@@ -1,5 +1,5 @@
 ---
 title: VueJS
-rating: 7
+rating: 8
 ---
 

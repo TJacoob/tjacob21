@@ -4,8 +4,7 @@ description: ''
 image_1: 'sw_laduree.webp'
 techs: 'HTML, Bootstrap, Javascript, PHP, SASS'
 year: 2019
-website: https://laduree.pt/
-level: 2
+level: 3
 ---
 
 

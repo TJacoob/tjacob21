@@ -82,6 +82,7 @@ module.exports = {
 		outline: ['responsive', 'hover', 'focus','active'],
 		borderOpacity: ['responsive', 'hover', 'focus','active'],
 		scale: ['responsive', 'hover', 'focus', 'active', 'group-hover'],
+		textShadow: ['responsive', 'hover', 'focus', 'active', 'group-hover'],
 	},
 	plugins:[
 		// https://github.com/iunteq/tailwindcss-textshadow

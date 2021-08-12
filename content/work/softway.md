@@ -5,7 +5,7 @@ position: Junior Web Developer
 company: Softway
 website: https://www.softway.net
 started: 2019
-ended: currently 
+ended: 2021 
 logo: softway.png
 ---
 

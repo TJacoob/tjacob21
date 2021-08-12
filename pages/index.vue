@@ -8,7 +8,7 @@
 				<div class="w-full lg:w-3/5 flex flex-col lg:mr-16 my-auto">
 					<div class="bg-white rounded-lg p-5 shadow-md mb-6">
 						<h2 class="text-2xl text-primary font-semibold mb-3">Hello!</h2>
-						<p>My name is Tomás and I am a Junior Web Developer at <a href="https://softway.pt" target="_blank" class="text-primary hover:text-primary-lighter transition duration-200">Softway Web Professionals</a> in Cascais. I graduated from Técnico Lisboa in 2019 with a Masters in Engineering and Computer Science majoring in Interaction and Visualization. Currently, I work developing PHP-based websites for a variety of clients, using mostly frontend languages such as HTML, CSS and Javascript. I also enjoy exploring other front-end frameworks such as Vue and React.</p>
+						<p>My name is Tomás and I am a Frontend Developer at <a href="https://frotcom.com/" target="_blank" class="text-primary hover:text-primary-lighter transition duration-200">Frotcom International</a> in Oeiras. I graduated from Técnico Lisboa in 2019 with a Masters in Engineering and Computer Science majoring in Interaction and Visualization. Currently, I work developing a fleet management software using mainly VueJS. I also enjoy exploring other front-end frameworks such as Nuxt.</p>
 					</div>
 					<h2 class="text-2xl text-primary font-semibold mb-2">Main Skills</h2>
 					<div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-2">
@@ -38,7 +38,7 @@
 							>
 								<div class="none lg:block w-full h-full absolute overflow-hidden bg-white bg-opacity-75 group-hover:bg-opacity-25 z-10 transition duration-200"></div>
 								<div class="my-auto flex flex-col p-4 z-20 relative">
-									<span class="text-2xl font-semibold">{{ project.title }}</span>
+									<span class="text-2xl font-semibold group-hover:text-shadow-md">{{ project.title }}</span>
 								</div>
 								<fa-icon :icon="{prefix:'fas',iconName:'chevron-right'}" size="lg" class="relative z-20 ml-auto my-auto mr-4 transform group-hover:translate-x-1 transition duration-200" />
 							</nuxt-link>
@@ -68,7 +68,8 @@ export default {
 	async asyncData({ $content, params }) {
 		const projects = await $content('projects', params.slug)
 			.only(['title', 'image_1', 'slug'])
-			.sortBy('endYear', 'desc')
+			.sortBy('year', 'desc')
+			.sortBy('level', 'asc')
 			.limit(2)
 			.fetch()
 

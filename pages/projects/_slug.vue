@@ -23,16 +23,16 @@
 					</div>
 					<!-- Slides -->
 					<div id="slide-1" v-if="project.image_1 !== undefined" class="absolute inset-0 w-full h-full text-white flex items-center justify-center text-5xl transition-all ease-in-out duration-1000 transform translate-x-0 slide">
-						<img :src="require(`~/static/images/${project.image_1}`)" class="h-full w-auto mx-auto"/>
+						<img :src="require(`~/static/images/${project.image_1}`)" :alt="project.title" class="h-full w-auto mx-auto"/>
 					</div>
 					<div id="slide-2" v-if="project.image_2 !== undefined" class="absolute inset-0 w-full h-full text-white flex items-center justify-center text-5xl transition-all ease-in-out duration-1000 transform translate-x-full slide">
-						<img :src="require(`~/static/images/${project.image_2}`)" class="h-full w-auto mx-auto"/>
+						<img :src="require(`~/static/images/${project.image_2}`)" :alt="project.title" class="h-full w-auto mx-auto"/>
 					</div>
 					<div id="slide-3" v-if="project.image_3 !== undefined" class="absolute inset-0 w-full h-full text-white flex items-center justify-center text-5xl transition-all ease-in-out duration-1000 transform translate-x-full slide">
-						<img :src="require(`~/static/images/${project.image_3}`)" class="h-full w-auto mx-auto"/>
+						<img :src="require(`~/static/images/${project.image_3}`)" :alt="project.title" class="h-full w-auto mx-auto"/>
 					</div>
 					<div id="slide-4" v-if="project.image_4 !== undefined" class="absolute inset-0 w-full h-full text-white flex items-center justify-center text-5xl transition-all ease-in-out duration-1000 transform translate-x-full slide">
-						<img :src="require(`~/static/images/${project.image_4}`)" class="h-full w-auto mx-auto"/>
+						<img :src="require(`~/static/images/${project.image_4}`)" :alt="project.title" class="h-full w-auto mx-auto"/>
 					</div>
 				</div>
 				<div class="lg:w-2/5 bg-primary-lighter text-white rounded-b-md lg:rounded-md py-8 px-6 lg:px-8 lg:-ml-4 z-10 lg:z-20 shadow-md flex flex-col -mt-4 lg:mt-0">
@@ -51,11 +51,11 @@
 						{{project.description}}
 					</div>
 					<div class="flex mt-auto">
-						<a v-if="project.github!==undefined" :href="project.github" target="_blank" class="bg-primary text-white w-1/2 inline-flex items-center rounded-md p-3 group mr-2">
+						<a v-if="project.github!==undefined" :href="project.github" target="_blank" rel="nofollow noopener noreferrer" class="bg-primary text-white w-1/2 inline-flex items-center rounded-md p-3 group mr-2">
 							<fa-icon :icon="{prefix:'fab',iconName:'github'}" size="lg" />
 							<div class="ml-3 mr-1 font-semibold group-hover:transform group-hover:-translate-x-1 transition duration-200">Github</div>
 						</a>
-						<a v-if="project.website!==undefined" :href="project.website" target="_blank" class="bg-primary text-white w-1/2 items-center inline-flex rounded-md p-3 group mr-2">
+						<a v-if="project.website!==undefined" :href="project.website" target="_blank" rel="nofollow noopener noreferrer" class="bg-primary text-white w-1/2 items-center inline-flex rounded-md p-3 group mr-2">
 							<fa-icon :icon="{prefix:'fas',iconName:'external-link-alt'}" size="md" />
 							<div class="ml-3 mr-1 font-semibold group-hover:transform group-hover:-translate-x-1 transition duration-200">Website</div>
 						</a>
