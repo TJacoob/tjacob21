@@ -6,7 +6,7 @@ export default function ({ $config }) {
 		config: {
 			id: $config.gaId,
 		},
-		bootstrap: false,
+		//bootstrap: false,
 		onReady () {}
 	});
 }
