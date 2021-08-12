@@ -77,6 +77,21 @@ export default {
 			activeSlide: 1,
 		}
 	},
+	head() {
+		return {
+			meta: [
+				{ hid:'description', name: 'description', content: this.project.description },
+				{ hid:'og:description', property: 'og:description', content: this.project.description },
+				{ hid:'twitter:description', name: 'twitter:description', content: this.project.description },
+				{ hid:'og:title', property: 'og:title', content: this.project.title + ' - tjacob.dev' },
+				{ hid:'twitter:title', property: 'twitter:title', content: this.project.title + ' - tjacob.dev' },
+				{ hid:'og:image', property: 'og:image', itemprop: "image", content: this.project.image_1!==undefined?'/images/'+this.project.image_1:'/thumb.jpg' },
+				{ hid:'og:type', property: 'og:type', content: "website" },
+				{ hid:'og:url', property: 'og:url', content: this.currentRoute },
+				{ hid:'twitter:site', name: 'twitter:site', content: this.currentRoute },
+			]
+		}
+	},
 	async asyncData({$content, params}) {
 		const project = await $content('projects', params.slug).fetch()
 		let slides = 0;

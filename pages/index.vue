@@ -8,7 +8,9 @@
 				<div class="w-full lg:w-3/5 flex flex-col lg:mr-16 my-auto">
 					<div class="bg-white rounded-lg p-5 shadow-md mb-6">
 						<h2 class="text-2xl text-primary font-semibold mb-3">Hello!</h2>
-						<p>My name is Tomás and I am a Frontend Developer at <a href="https://frotcom.com/" target="_blank" class="text-primary hover:text-primary-lighter transition duration-200">Frotcom International</a> in Oeiras. I graduated from Técnico Lisboa in 2019 with a Masters in Engineering and Computer Science majoring in Interaction and Visualization. Currently, I work developing a fleet management software using mainly VueJS. I also enjoy exploring other front-end frameworks such as Nuxt.</p>
+						<div class="nuxt-content">
+							<nuxt-content :document="intro" />
+						</div>
 					</div>
 					<h2 class="text-2xl text-primary font-semibold mb-2">Main Skills</h2>
 					<div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-2">
@@ -66,6 +68,8 @@
 <script>
 export default {
 	async asyncData({ $content, params }) {
+		const intro = await $content('generic', 'intro').fetch();
+
 		const projects = await $content('projects', params.slug)
 			.only(['title', 'image_1', 'slug'])
 			.sortBy('year', 'desc')
@@ -78,7 +82,7 @@ export default {
 			.limit(3)
 			.fetch()
 
-		return { projects, skills }
+		return { intro, projects, skills }
 	},
 
 }

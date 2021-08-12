@@ -7,10 +7,8 @@
 			<div class="flex flex-col lg:flex-row -mr-4 w-full ">
 				<!-- Slider -->
 				<div class="lg:w-2/5 bg-primary-lighter text-white rounded-t-md lg:rounded-md py-8 px-6 lg:px-8 z-10 lg:z-20 shadow-md flex flex-col -mt-12 lg:mt-0">
-					<div class="mb-5">
-						<p class="mb-2">During business hours I am a Frontend Developer. Why? I believe in creating things, whatever they are, and Web Development is a way to create: websites, stores, management platforms, you name it. Through careful design and implementation, it is possible to make pretty much any tool a new reality for anyone around the world.</p>
-						<p class="mb-2">Tech-wise, I am an enthusiast of frontend frameworks, such as Vue or React, as they enable developers to build quickly and easily. Either proofs-of-concept or full-blown applications.</p>
-						<p>After hours, I am a huge fan of concerts, travelling and sports. Pick either one of these topics and we can talk about it for hours, over beer or coffee.</p>
+					<div class="nuxt-content mb-5">
+						<nuxt-content :document="aboutme" />
 					</div>
 
 				</div>
@@ -59,6 +57,10 @@ export default {
 			activeSlide: 1,
 			slides: 6,
 		}
+	},
+	async asyncData({$content, params}) {
+		const aboutme = await $content('generic', 'aboutme').fetch()
+		return { aboutme }
 	},
 	methods: {
 		techsArray(project) {
