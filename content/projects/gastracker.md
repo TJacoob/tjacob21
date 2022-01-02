@@ -7,7 +7,7 @@ image_3: gastracker_2.webp
 image_4: gastracker_3.webp
 techs: 'VueJS, NuxtJS, NodeJS, Express, Bootstrap, MongoDB'
 year: 2020
-website: https://gastracker.eu/
+website: https://gastracker-pt.herokuapp.com/
 github: https://github.com/TJacoob/GasTracker
 level: 2
 ---

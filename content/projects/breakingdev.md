@@ -8,7 +8,7 @@ image_4: bdev_4.webp
 techs: 'React, NodeJS, MeteorJS, Express, Bootstrap, MongoDB'
 year: 2019
 github: https://github.com/NEETIIST/BreakingDev19
-level: 1
+level: 2
 ---
 
 BreakingDev is a Hackathon for university students organized by NEETI-IST from 2016 to 2019. I was a part of the team that organized the first edition back in 2016 and have been involved in the organization until 2019.
