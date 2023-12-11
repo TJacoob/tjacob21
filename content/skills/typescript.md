@@ -1,4 +1,4 @@
 ---
-title: Strapi
+title: Typescript
 rating: 7
 ---

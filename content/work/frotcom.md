@@ -5,7 +5,7 @@ position: Frontend Developer
 company: Frotcom International
 website: https://www.frotcom.com/
 started: 2021
-ended: currently
+ended: 2023
 logo: frotcom.png
 ---
 

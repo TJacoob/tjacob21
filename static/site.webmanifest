@@ -1,6 +1,6 @@
 {
-    "name": "TJacob.dev",
-    "short_name": "TJacob.dev",
+    "name": "tjacob.dev",
+    "short_name": "tjacob.dev",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -13,6 +13,6 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#2c6e49",
-    "background_color": "#2c6e49"
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff"
 }

@@ -9,13 +9,15 @@ module.exports = {
 			},
 			colors: {
 				primary: {
-					lighter: '#4c956c',
-					DEFAULT: '#2c6e49',
+					lighter: '#ab6bab',
+					DEFAULT: '#8a468b',
+					// lighter: '#4c956c',
+					// DEFAULT: '#2c6e49',
 					//lighter: '#a3b18a',
 					//DEFAULT: '#588157',
 				},
 				secondary: {
-					DEFAULT: '#dad7cd',
+					DEFAULT: '#f1eeec',
 					//DEFAULT: '#dad7cd',
 				},
 				white: '#ffffff',
