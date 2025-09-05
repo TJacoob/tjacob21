@@ -9,4 +9,4 @@ ended: 2023
 logo: frotcom.png
 ---
 
-As a Frontend Developer @ Frotcom International I contribute to the development of a large fleet monitoring web application. It is built primarily with VueJS and has a large amount of pages and components. Personally, I appreciate the sheer size and complexity of the application as a challenge and a learning opportunity. 
+As a Frontend Developer @ Frotcom International I contributed to the development of a large fleet monitoring web application. It is built primarily with VueJS and has a large amount of pages and components. Personally, I appreciated the sheer size and complexity of the application as a challenge and a learning opportunity. 

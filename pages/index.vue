@@ -52,7 +52,7 @@
 							</NuxtLink>
 						</div>
 					</div>
-					<a href="/files/CV_2024_tiny.pdf" target="_blank" class="flex rounded-lg py-5 px-6 shadow-md bg-gradient-to-tr from-primary to-primary-lighter text-white hover:bg-white hover:from-white hover:to-white hover:text-primary transition duration-200 mb-8 lg:mb-0">
+					<a href="/files/CV_2025_tiny.pdf" target="_blank" class="flex rounded-lg py-5 px-6 shadow-md bg-gradient-to-tr from-primary to-primary-lighter text-white hover:bg-white hover:from-white hover:to-white hover:text-primary transition duration-200 mb-8 lg:mb-0">
 						<fa-icon :icon="{prefix:'far',iconName:'file-alt'}" size="4x" class="my-auto mr-5" />
 						<div>
 							<h2 class="text-2xl font-semibold leading-tight mb-1">Curriculum</h2>

@@ -53,9 +53,6 @@
 				<a href="https://github.com/TJacoob" target="_blank" rel="nofollow noopener noreferrer" class="mx-3 text-white">
 					<fa-icon :icon="{prefix:'fab',iconName:'github'}" size="2x" />
 				</a>
-				<a href="https://twitter.com/tjacoob" target="_blank" rel="nofollow noopener noreferrer" class="mx-3 text-white">
-					<fa-icon :icon="{prefix:'fab',iconName:'twitter'}" size="2x" />
-				</a>
 				<a href="mailto:tjacobmartins@gmail.com" target="_blank" rel="nofollow noopener noreferrer" class="mx-3 text-white">
 					<fa-icon :icon="{prefix:'far',iconName:'envelope'}" size="2x" />
 				</a>
