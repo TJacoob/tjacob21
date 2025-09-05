@@ -11,7 +11,7 @@ export default {
 
 	// Global page headers: https://go.nuxtjs.dev/config-head
 	head: {
-		title: 'tjacob.dev - Frontend Developer',
+		title: 'tjacob.dev - Frontend Engineer',
 		meta: [
 			{ charset: 'utf-8' },
 			{
@@ -21,19 +21,19 @@ export default {
 			{
 				hid: 'description',
 				name: 'description',
-				content: 'Tomás Jacob - Frontend Developer Portfolium',
+				content: 'Tomás Jacob - Frontend Engineer Portfolium',
 			},
 			{
 				hid: 'og:description',
 				property: 'og:description',
-				content: 'Tomás Jacob - Frontend Developer Portfolium',
+				content: 'Tomás Jacob - Frontend Engineer Portfolium',
 			},
 			{ hid:'msapplication', name: 'msapplication-TileColor', content: '#ffffff' },
 			{ hid:'them-color', name: 'theme-color', content: '#ffffff' },
-			{ hid: 'og:title', property: 'og:title', content: 'tjacob.dev - Frontend Developer' },
-			{ hid: 'twitter:title', property: 'twitter:title', content: 'tjacob.dev - Frontend Developer' },
-			{ hid: 'og:image', property: 'og:image', content: '/thumb.png' },
-			{ hid: 'twitter:image', property: 'twitter:image', content: '/thumb.png' },
+			{ hid: 'og:title', property: 'og:title', content: 'tjacob.dev - Frontend Engineer' },
+			{ hid: 'twitter:title', property: 'twitter:title', content: 'tjacob.dev - Frontend Engineer' },
+			{ hid: 'og:image', property: 'og:image', content: '/thumb.webp' },
+			{ hid: 'twitter:image', property: 'twitter:image', content: '/thumb.webp' },
 			{ hid: 'og:url', property: 'og:url', content: process.env.BASE_URL },
 			{ hid:'twitter:site', name: 'twitter:site', content: process.env.BASE_URL },
 			{ hid: 'og:type', property: 'og:type', content: 'website' },
