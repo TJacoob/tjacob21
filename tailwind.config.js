@@ -9,8 +9,8 @@ module.exports = {
 			},
 			colors: {
 				primary: {
-					lighter: '#9c6644',
-					DEFAULT: '#7f5539',
+					lighter: '#439cd7',
+					DEFAULT: '#0070bb',
 					// lighter: '#4c956c',
 					// DEFAULT: '#2c6e49',
 					//lighter: '#a3b18a',

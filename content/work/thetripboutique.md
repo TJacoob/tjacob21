@@ -5,7 +5,7 @@ position: Frontend Engineer
 company: The Trip Boutique
 website: https://www.thetripboutique.co/
 started: 2023
-ended: currently
+ended: 2026
 logo: thetripboutique.png
 ---
 
